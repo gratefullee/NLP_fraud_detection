@@ -1,8 +1,8 @@
 # fraud_detection
 
-Dataset: real world 14,337 cases of credit card usage information (about 9% is fraud cases)
+Dataset: 14,337 of real-world credit card transaction (about 9% is fraud cases)
 
-Each transaction has a description about the product/service on 'description' colum.
+Each transaction has a description about the product/service on 'description' colum as well as other features.
 
 After data cleaning, I used the LDA and LSA topic modeling. Based on the vector values, I put it into a random forest model and tried to predict if it's fraud or not. 
 
