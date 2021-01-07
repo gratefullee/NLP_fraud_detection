@@ -1,6 +1,6 @@
 # fraud_detection
 
-Dataset: 14,337 of real-world credit card transaction (about 9% is fraud cases)
+Dataset: 14,337 of real-world credit card transactions (about 9% of them is fraud cases)
 
 Each transaction has a description about the product/service on 'description' colum as well as other features.
 
