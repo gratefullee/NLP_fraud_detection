@@ -2,7 +2,9 @@
 
 Dataset: real world 14,337 cases of credit card usage information (about 9% is fraud cases)
 
-Used gensim model for topic modeling and based on the vector values, tried to predict fraud or not. 
+Each transaction has a description about the product/service on 'description' colum.
 
-Future work: Use XGBoost to improve the model. 
+After data cleaning, I used a LDA and LSA for topic modeling. Based on the vector values, I put it into a random forest model and tried to predict if it's fraud or not. 
+
+Future work: Use XGBoost to improve the model and utilize other features as well. 
 
