@@ -6,5 +6,5 @@ Each transaction has a description about the product/service on 'description' co
 
 After data cleaning, I used the LDA and LSA topic modeling. Based on the vector values, I put it into a random forest model and tried to predict if it's fraud or not. 
 
-Future work: Use XGBoost to improve the model and utilize other features as well. 
+Future work: 1) Use XGBoost to improve the model. 2) Utilize other features as well. 
 
